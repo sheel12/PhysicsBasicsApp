@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sheelchopra.physicsmathschembasics">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PhysicsMathsChemStartApp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EntryActivity" android:label="Welcome" />
+        <activity android:name=".PhysicsTopicsActivity" android:label="Physics" />
+        <activity android:name=".Physics_Chapter_1_Activity" android:label="Chapter 1" />
+        <activity android:name=".Physics_Chapter_2_Activity" android:label="Chapter 2"/>
+        <activity android:name=".Physics_Chapter_3_Activity" android:label="Chapter 3"/>
+        <activity android:name=".Physics_Chapter_4_Activity" android:label="Chapter 4"/>
+        <activity android:name=".Physics_Chapter_5_Activity" android:label="Chapter 5"/>
+        <activity android:name=".Physics_Chapter_6_Activity" android:label="Chapter 6"/>
+        <activity android:name=".Physics_Chapter_7_Activity" android:label="Chapter 7"/>
+        <activity android:name=".Physics_Chapter_8_Activity" android:label="Chapter 8"/>
+        <activity android:name=".Physics_Chapter_9_Activity" android:label="Chapter 9"/>
+        <activity android:name=".Physics_Chapter_10_Activity" android:label="Chapter 10"/>
+        <activity android:name=".Physics_Chapter_11_Activity" android:label="Chapter 11"/>
+        <activity android:name=".Physics_Chapter_12_Activity" android:label="Chapter 12"/>
+
+    </application>
+
+</manifest>
